@@ -197,6 +197,7 @@ function EsNumeroPerfecto($num){
 <?php
 
 $mat=array(1,5,3,-2,4,2,4,-2,5,5,2,1,3);
+
 echo ejercicio_11($mat);
 
 function ejercicio_11($array){
@@ -230,6 +231,7 @@ function ejercicio_11($array){
 <?php
 
 $a=array(-7, 1, 5, 2, -4, 3, 0);
+
  echo ejercicio_12($a);
  
 function ejercicio_12($arr){
