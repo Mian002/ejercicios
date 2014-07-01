@@ -100,6 +100,7 @@ function ejercicio_6($str){
 ?>
 
 <?php
+
 echo ejercicio_7("Cadena , !/+FFFca 122434");
  
  function ejercicio_7($str){
@@ -126,6 +127,7 @@ echo ejercicio_7("Cadena , !/+FFFca 122434");
  ?>
  
  <?php
+ 
  echo ejercicio_8(". Ah, este es un texto de muestra, que da una lid de análisis" );
  
  function ejercicio_8($str){
@@ -148,6 +150,7 @@ echo ejercicio_7("Cadena , !/+FFFca 122434");
  ?>
  
  <?php
+ 
  if(ejercicio_9(16)){
     echo "es correcto";
 }else{
@@ -166,6 +169,7 @@ function ejercicio_9($num){
 ?>
 
 <?php
+
 echo ejercicio_10(1,7);
  function ejercicio_10($x,$y){
     for($i=$x;$i<=$y;$i++){
@@ -191,6 +195,7 @@ function EsNumeroPerfecto($num){
 ?>
 
 <?php
+
 $mat=array(1,5,3,-2,4,2,4,-2,5,5,2,1,3);
 echo ejercicio_11($mat);
 
@@ -223,6 +228,7 @@ function ejercicio_11($array){
 ?>
 
 <?php
+
 $a=array(-7, 1, 5, 2, -4, 3, 0);
  echo ejercicio_12($a);
  
@@ -248,6 +254,7 @@ function ejercicio_12($arr){
  ?>
  
 <?php
+
  $a=array(4,-3,-100,7,0,1,-6);
 foreach(ejercicio_13($a) as $lista){
     echo $lista.", ";
@@ -270,6 +277,7 @@ function ejercicio_13($ar){
 ?>
 
 <?php
+
 echo ejercicio_14(5,3,3);
 
     function ejercicio_14($x,$y,$z){
